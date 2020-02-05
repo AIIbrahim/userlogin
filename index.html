@@ -1,174 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="Width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    
-        <!-- js scripts -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/respond.js"></script>
-	
-		
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/responsive.css" rel="stylesheet">
-        
-        <title> space</title>
-    </head>
-<body>
-    
-					
-	<header >
-		 <div class="container">
-                <div class="row">
-            	<h1 class="white pull-left">  SPACE	</h1>
-            <nav >
-            	
-                <div class="collapse navbar-collapse menu-items" id="navbar-content"> 
-                    
-                    <ul class="pull-right right nav navbar-nav">
-                         
-                        <li><a href="#">Home <span class="caret"></span></a></li>
-                        <li><a href="#">Pages  <span class="caret"></span></a></li>
-                        <li><a href="#">Works <span class="caret"></span> </a></li>
-                        <li ><a href="#">Blog  <span class="caret"></span></a></li>
-                        <li><a href="#">Shop <span class="caret"></span> </a></li>
-                        <li><a href="#">Starter  <span class="caret"></span></a></li>
-                        <li ><a href=""class="sign-in" ><span class="fa fa-users "> Sign in</span></a></li>
-                        <li><a href="#" class="fa fa-search"></a></li>
-                        <li><a href="#" class="fa fa-shopping-cart"></a></li> 
-                        <li><a href="#" class="fa fa-navicon"></a></li> 
-                            
-                    </ul>
-                </div>
-            </nav>	
 
-                </div>
-            </div>								
-	</header>
-        <section class="middle">
-            <div class="container">
-                <div class="row">
-                    <div class="contain-space">
-                        <div class="col-md-6 white">
-                            <div class="thechange">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="Width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <!-- js scripts -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/respond.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <title> space</title>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <h1 class="white pull-left"> SPACE </h1>
+                <nav>
+
+                    <div class="collapse navbar-collapse menu-items" id="navbar-content">
+
+                        <ul class="pull-right right nav navbar-nav">
+
+                            <li><a href="#">Home <span class="caret"></span></a></li>
+                            <li><a href="#">Pages <span class="caret"></span></a></li>
+                            <li><a href="#">Works <span class="caret"></span> </a></li>
+                            <li><a href="#">Blog <span class="caret"></span></a></li>
+                            <li><a href="#">Shop <span class="caret"></span> </a></li>
+                            <li><a href="#">Starter <span class="caret"></span></a></li>
+                            <li><a href="" class="sign-in"><span class="fa fa-users "> Sign in</span></a></li>
+                            <li><a href="#" class="fa fa-search"></a></li>
+                            <li><a href="#" class="fa fa-shopping-cart"></a></li>
+                            <li><a href="#" class="fa fa-navicon"></a></li>
+
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <section class="middle">
+        <div class="container">
+            <div class="row">
+                <div class="contain-space">
+                    <div class="col-md-6 white">
+                        <div class="thechange">
                             <p> JOIN THE CHANGE</p>
                             <h2>
-                              Space service <br> that moves <br> work forward
+                                Space service <br> that moves <br> work forward
                             </h2>
+                            <h3 class="white size"> Are you a returning user <br>
+                                Please Log in
+                            </h3>
+                            <button class=" btn btn-primary" id="new-login"> LOGIN</button>
 
-                            </div>
+                            <h3 class="white size"> Are you a new user <br>
+                                Please Register here
+                            </h3>
+                            <button class=" btn btn-primary" id="new-register"> REGISTER</button>
+
                         </div>
-                        <div class="col-md-6">
-                            <div class="start-form">
-                            <form action="" class="join">
-                            <h3>Get started for free</h3>
-                            <input class="click" type="text" placeholder="Enter Your Username"></input>
-                            <input class="click" type="text" placeholder="Enter Your Email Address"></input>
-                            <input class="click" type="password" placeholder="Enter Your Password" name="" id=""></input>
-                            <button class="btn sign click white"> Submit</button>
+                        <div></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="start-form">
+                            <form action="" id="initial" class="join">
+                                <h3 >Get started for free</h3>
+                                <label>
+                                    <input class="click" id="enter" type="text" placeholder="Enter Your Username">
+                                    
+                                    </input>
+                                    
+                                </label>
+                                <label>
+                                    <input class="click" type="text" placeholder="Enter Your Email Address">
+                                    
+                                    </input>   
+                                </label>
+                                <label>  
+                                    <input class="click" type="password" placeholder="Enter Your Password" name=""
+                                    id="">
+                                        
+                                    </input>    
+                                </label>                             
+                                <button class="btn sign click white"> Submit</button>
                             </form>
 
-                            </div>
+
+                            <form action="" class="join-user" id="user-login">
+                                <h3> User Login </h3>
+                                <label>
+                                <input class="click" type="text" id="username"
+                                    placeholder="Enter Your Username"></input>
+                                  
+                                </label>
+                                <label>
+                                <input class="click" type="password" id="password"
+                                    placeholder="Enter Your Password"></input>
+                                      
+                                </label>
+                                <button class="btn sign click white" id="login-submit"> Login</button>
+                            </form>
+
+
+                            <form action="" class="join-register" id="user-register">
+                                <h3>Register New User</h3>
+
+                                <label class=""> <small> * </small>
+                                    <input class="click" type="text" placeholder="Enter Your Email Address"
+                                    id="newemail"></input>
+                                    <span class="fa fa-check " id="email-verify"></span>
+                                </label>
+                                <label> <small> * </small>
+                                <input class="click" type="text" placeholder="Enter Your Username" id="newuser"></input>
+                                     <span class="fa fa-check " id="user-verify"></span> 
+                                </label>
+                                <label>  <small> * </small>
+                                <input class="click" type="text" placeholder="Enter Your Phone Number"
+                                    id="newphone"></input>
+                                     <span class="fa fa-check " id="phone-verify"></span> 
+                                </label>
+
+                                <label> <small> * </small>
+                                <input class="click" type="password" placeholder="Enter Your Password"
+                                    id="newpass"></input>
+                                     <span class="fa fa-check " id="password-verify"></span> 
+                                </label>
+                                <label> <small> * </small>
+                                <input class="click" type="password" placeholder="Confirm Your Password"
+                                    id="newconpass"></input>
+                                     <span class="fa fa-check " id="confirm-verify"></span> 
+                                </label>
+                                <button class="btn sign click white" id="reg-submit"> Submit</button>
+                            </form>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="client">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-2">
+                    <div>
+                        <img src="img/lenovo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div>
+                        <img src="img/index.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div>
+                        <img src="img/samsung.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div>
+                        <img src="img/google.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div>
+                        <img src="img/slack.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div>
+                        <img src="img/paypal.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="service-content">
+                        <p>3 methods Space can <br>
+                            help to grow your <br>
+                            business with
+                        </p>
+                        <div class="feature">
+                            <h5 class="feature-active"> 1. Feature</h5>
+                            <h5 class="">2. Key benefits</h5>
                         </div>
 
                     </div>
                 </div>
-            </div>
-        </section>
+                <div class="col-md-8" id="select">
+                    <div class="col-md-6">
+                        <div class="selected">
 
-        <section class="client" >
-            <div class="container">
-                <div class="row">
+                            <span class="fa fa-globe"></span>
+                            <p>The amount of time to delay
+                                between cycling<br> automatically
+                                an item. If false,carousel <br>
+                                will not automatically cycle </p>
+                            <div class="learn"> Learn more <span class="fa fa-caret-right"> </span></div>
+                        </div>
+                    </div>
 
-                    <div class="col-md-2">
-                        <div>
-                            <img src="img/lenovo.png" alt="">
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-2">
-                        <div>
-                            <img src="img/index.png" alt="">
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-2">
-                        <div>
-                            <img src="img/samsung.jpg" alt="">
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-2">
-                        <div>
-                            <img src="img/google.png" alt="">
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-2">
-                        <div>
-                            <img src="img/slack.jpg" alt="">
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-2">
-                        <div>
-                            <img src="img/paypal.png" alt="">
+                    <div class="col-md-6">
+                        <div class="selected-other">
+                            <span class="fa fa-globe"></span>
+                            <p>The amount of time to delay
+                                between cycling <br>automatically
+                                an item. If false, carousel <br>
+                                will not automatically cycle </p>
+                            <div class="learn"> Learn more <span class="fa fa-caret-right"> </span></div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <section class="service">
-            <div class="container">
-                <div class="row">
-                        <div class="col-md-4 ">
-                            <div class="service-content"> 
-                                <p>3 methods Space can <br> 
-                                 help to grow your <br>
-                                 business with
-                                 </p> 
-                                 <div class="feature">
-                                      <h5 class="feature-active"> 1. Feature</h5>
-                                     <h5 class="">2. Key benefits</h5>
-                                 </div>
 
-                            </div>
-                        </div>
-                        <div class="col-md-8" id="select">  
-                            <div class="col-md-6">
-                                <div class="selected">
-                                    
-                                <span class="fa fa-globe"></span>
-                                <p>The amount of time to delay 
-                                     between cycling<br> automatically 
-                                      an item. If false,carousel <br> 
-                                       will not automatically cycle </p>
-                                <div class="learn"> Learn more <span class="fa fa-caret-right"> </span></div>
-                                </div>
-                            </div>
-    
-                            <div class="col-md-6">
-                                <div class="selected-other">
-                                <span class="fa fa-globe"></span>
-                                <p>The amount of time to delay 
-                                     between cycling <br>automatically  
-                                      an item. If false, carousel <br>
-                                       will not automatically cycle </p>
-                                <div class="learn"> Learn more <span class="fa fa-caret-right"> </span></div>
-                                </div>
-                            </div>
-                        </div> 
-                   
-                        
-                </div>
             </div>
-        </section>
-  
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>      
+        </div>
+    </section>
+        
+
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

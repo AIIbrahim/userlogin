@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    width: 100%;
+
+}
+
+header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 2px solid grey;
+}
+#menu{
+    background-color: white;
+}
+.red{
+    background-color: red;
+}
+h1{
+    font-weight: bold;
+}
+.sign{
+    background-color: rgb(30, 151, 76);
+    border: 3px solid rgb(30, 151, 76);
+}
+.sign-in{
+    background-color: rgb(30, 151, 76);
+}
+img{
+    width: 100px;
+    height: 70px;
+}
+
+.menu-items{
+    display: inline;
+}
+.middle{
+    height:500px;
+    width:100%;
+    background-image: url(../img/slider.jpg);
+ 
+}
+label{
+    display: inline;
+}
+.join{
+    width: 300px;
+    height: 280px;
+    padding: 20px;
+    padding-top: 1px;
+    background-color: white;
+    border-radius: 5px;
+}
+.click{
+    height: 40px;
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.contain-space{
+    width: 100%;
+    height: 500px;
+    padding-top: 10%;
+    position: relative;
+
+}
+.client{
+    padding: 10px;
+    border-bottom: 2px solid rgba(112, 108, 108, 0.527);
+    box-shadow: 2px 5px 5px rgb(156, 150, 150) inset;
+}
+.service{
+    margin-top: 60px;
+}
+.service-content {
+    padding-top: 10px;
+    padding-left: 50%;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+.white, li a{
+    color: white;
+}
+.service-content p{
+    font-weight: bold;
+}
+.feature{
+    margin-top: 20px;
+}
+.feature-active{
+    height: 30px;
+    color: green;
+    border-right: 2px solid green;
+}
+.learn{
+    border:0px solid white;
+    color: green;
+}
+.fa-globe{
+    transform: scale(3);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    color: rgb(30, 151, 76);
+}
+.fa-check{
+    color: blue;
+    transform: scale(1.2);
+}
+.size{
+    font-size: 18px;
+}
+#select{
+    height: 200px;
+    background-color: red;
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color: white;
+
+}
+
+.join-user{
+    width: 290px;
+    height: 230px;
+    padding-left: 20px;
+    padding-top: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+.join-register{
+    width: 330px;
+    height: 385px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 1px;
+    background-color: white;
+    border-radius: 5px;
+}
+.thechange{
+    top: 40%;
+    padding-left: 40%;
+}
+
+.start-form{
+    top: 40%;
+    padding-left: -30%;
+}
+#login-submit{
+
+}
+#reg-submit{
+
+    padding-left: 35px;
+}
