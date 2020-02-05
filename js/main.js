@@ -22,7 +22,7 @@ jQuery(document).ready(function () {
 
 
   		$('#newemail').keyup(function () {
-   		$('#email-v`erify').show();
+   		$('#email-verify').show();
    		var newemail = $('#newemail').val();
 		if (newemail.indexOf('@') != -1 && newemail.indexOf('.') != -1) {
 			$('#email-verify').css({ "color": "green"});		
