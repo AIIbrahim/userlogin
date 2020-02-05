@@ -41,11 +41,14 @@ img{
     background-image: url(../img/slider.jpg);
  
 }
+label{
+    display: inline;
+}
 .join{
     width: 300px;
-    height: 310px;
+    height: 280px;
     padding: 20px;
-    padding-top: 20px;
+    padding-top: 1px;
     background-color: white;
     border-radius: 5px;
 }
@@ -102,29 +105,36 @@ img{
     padding-left: 5px;
     color: rgb(30, 151, 76);
 }
+.fa-check{
+    color: blue;
+    transform: scale(1.2);
+}
+.size{
+    font-size: 18px;
+}
 #select{
     height: 200px;
     background-color: red;
     padding-top: 30px;
     padding-left: 20px;
     background-color: white;
-    box-shadow: 6px -2px 5px 1px rgb(148, 139, 139);
 
 }
 
-#user-login{
-    width: 300px;
-    height: 280px;
-    padding: 20px;
-    padding-top: 20px;
+.join-user{
+    width: 290px;
+    height: 230px;
+    padding-left: 20px;
+    padding-top: 5px;
     background-color: white;
     border-radius: 5px;
 }
 .join-register{
-    width: 300px;
-    height: 500px;
-    padding: 20px;
-    padding-top: 30px;
+    width: 330px;
+    height: 385px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 1px;
     background-color: white;
     border-radius: 5px;
 }
@@ -136,4 +146,11 @@ img{
 .start-form{
     top: 40%;
     padding-left: -30%;
+}
+#login-submit{
+
+}
+#reg-submit{
+
+    padding-left: 35px;
 }
